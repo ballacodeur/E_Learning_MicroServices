@@ -1,0 +1,29 @@
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:1305/eureka/
+
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    gateway:
+      mvc:
+        routes:
+          - id: clients-services
+            uri: http://localhost:1306
+            predicates:
+              - Path=/api/clients/**
+          - id: produits-services
+            uri: http://localhost:1414
+            predicates:
+              - Path=/api/produits/**
+
+
+
+server:
+  port: 2020

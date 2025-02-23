@@ -1,0 +1,14 @@
+
+b	java:S112)"FDefine and throw a dedicated exception instead of using a generic one.(ÒåÎ8Úƒˆúş1
+b	java:S112;"FDefine and throw a dedicated exception instead of using a generic one.(ÒåÎ8ãƒˆúş1
+b	java:S112>"FDefine and throw a dedicated exception instead of using a generic one.(ÒåÎ8äƒˆúş1
+L
+java:S37407"/Provide the parametrized type for this generic.(«İµ8çƒˆúş1
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8¶„ˆúş1
+\
+java:S1854$":Remove this useless assignment to local variable "output".(Ğ•ã±úÿÿÿÿ8Å„ˆúş1
+M
+java:S1481$"+Remove this unused "output" local variable.(Ğ•ã±úÿÿÿÿ8Í„ˆúş1
+O
+java:S1172N"2Remove this unused method parameter "accessToken".(òŒè«8¬…ˆúş1
