@@ -6,6 +6,7 @@ import com.examen.e_learning.User_Service.users.user.service.UserService;
 import jakarta.validation.Valid;
 import jakarta.ws.rs.NotFoundException;
 import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -17,6 +18,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/api/users")
 @AllArgsConstructor
+@Slf4j
 public class UserController {
     private static final String RESULT = "data";
     private static final String MESSAGE = "message";
@@ -71,6 +73,7 @@ public class UserController {
     @PostMapping
     @ResponseStatus(code = HttpStatus.CREATED)
     public ResponseEntity<?> saveUser(@Valid @RequestBody UserDto userDto) {
+        log.info("res:"+ userDto.toString());
         Map<String, Object> output = new HashMap<>();
         try {
             output.put(RESULT, userService.createUser(userDto));

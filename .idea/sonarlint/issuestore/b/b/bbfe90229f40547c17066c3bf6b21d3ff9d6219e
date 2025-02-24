@@ -1,0 +1,21 @@
+
+b	java:S112h"FDefine and throw a dedicated exception instead of using a generic one.(‹·ï§8á²Ñ½Ó2
+a	java:S112j"FDefine and throw a dedicated exception instead of using a generic one.(Å–Æm8â²Ñ½Ó2
+b	java:S112l"FDefine and throw a dedicated exception instead of using a generic one.(Áô¼¶8œû½Ó2
+g	java:S112p"FDefine and throw a dedicated exception instead of using a generic one.(‘û‘ïùÿÿÿÿ8¥œû½Ó2
+b	java:S112£"FDefine and throw a dedicated exception instead of using a generic one.(şÇïC8ñ· ¾Ó2
+c	java:S112©"FDefine and throw a dedicated exception instead of using a generic one.(èĞÊÊ8ó· ¾Ó2
+h	java:S112°"FDefine and throw a dedicated exception instead of using a generic one.(Ö¬÷Şøÿÿÿÿ8ö· ¾Ó2
+h	java:S112¾"FDefine and throw a dedicated exception instead of using a generic one.(ñİ£ùÿÿÿÿ8÷· ¾Ó2
+c
+java:S18548"ARemove this useless assignment to local variable "utilisateurID".(†ı¾‹úÿÿÿÿ8Ö„Ÿ¥Ó2
+W	java:S1255"<This block of commented-out lines of code should be removed.(áø#8Ø„Ÿ¥Ó2
+T
+java:S14818"2Remove this unused "utilisateurID" local variable.(†ı¾‹úÿÿÿÿ8Ú„Ÿ¥Ó2
+]	java:S125?"<This block of commented-out lines of code should be removed.(ôç²‡ıÿÿÿÿ8×ÿĞ½Ó2
+Q
+java:S1068!"/Remove this unused "userService" private field.(ÇêŞ¢ıÿÿÿÿ8†…Ÿ¥Ó2
+P
+java:S1144­"2Remove this unused private "ifEmailIsUsed" method.(÷ŠÜ°8†…Ÿ¥Ó2
+^
+java:S1144´";Remove this unused private "ifNomUtilisateurIsUsed" method.(À‘ øÿÿÿÿ8‡…Ÿ¥Ó2

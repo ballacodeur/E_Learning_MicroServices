@@ -1,0 +1,9 @@
+
+o
+java:S6204)"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8¶ð­¤Ó2
+K
+java:S1128".Remove this unused import 'java.util.Objects'.(¼¸õ›8ŽÒ²ÁÓ2
+Q
+java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëÝüÿÿÿÿ8ŽÒ²ÁÓ2
+K
+java:S1068".Remove this unused "userMapper" private field.(áŽç÷8Äð­¤Ó2

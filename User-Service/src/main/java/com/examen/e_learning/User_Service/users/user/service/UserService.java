@@ -1,6 +1,8 @@
 package com.examen.e_learning.User_Service.users.user.service;
 
+import com.examen.e_learning.User_Service.users.user.dto.StudentDto;
 import com.examen.e_learning.User_Service.users.user.dto.UserDto;
+import com.examen.e_learning.User_Service.users.user.entities.Student;
 import com.examen.e_learning.User_Service.users.user.mapper.UserMapper;
 import com.examen.e_learning.User_Service.users.user.repository.UserRepository;
 import jakarta.persistence.EntityNotFoundException;

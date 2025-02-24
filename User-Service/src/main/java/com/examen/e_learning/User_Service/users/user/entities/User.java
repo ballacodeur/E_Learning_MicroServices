@@ -1,6 +1,7 @@
 package com.examen.e_learning.User_Service.users.user.entities;
 
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -17,20 +18,23 @@ public  class User implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    protected Long id;
 
     @Column(nullable = false, unique = true)
-    private String emailPro;
+    protected String emailPro;
 
     @Column(nullable = false)
-    private String firstName;
+    protected String firstName;
 
     @Column(nullable = false)
-    private String lastName;
+    protected String lastName;
 
-    private String emailPerso;
-    private String phoneNumber;
-    private String address;
-    private boolean archive;
+    protected String emailPerso;
+    protected String phoneNumber;
+    protected String address;
+    protected String profileType;
+    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
+    protected String password;
+    protected boolean archive;
 }
 

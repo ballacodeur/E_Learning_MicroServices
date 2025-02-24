@@ -12,6 +12,7 @@ import lombok.*;
 @AllArgsConstructor
 @Entity
 @DiscriminatorValue("STUDENT")
+@EqualsAndHashCode(callSuper = true)
 public class Student extends User {
 
     @Column(nullable = false, unique = true)
